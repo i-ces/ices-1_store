@@ -1,0 +1,45 @@
+:root{
+  --mainGreen:#5CDB95;
+  --lightGreen:#379683;
+  --mainWhite:#EAE7DC;
+  --mainDark:#17252A;
+  --mainYellow:#FCCD04;
+}
+body{
+  font-family: 'Oswald', sans-serif !important;
+  background: var(--mainwhite) !important;
+  color: var(--mainDark) !important;
+}
+.text-title{
+  font-family: 'PT Serif', serif !important;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color:(var(--mainGreen)) !important;
+}
+.text-green{
+  color:(var(--mainGreen));
+  font: 'arial';
+}
+.text-bright{
+  color:(--lightGreen);
+}
+
+.btn-black{
+  background:transparent;
+  text-transform: capitalize;
+  font-size:0.8rem !important;
+  color:var(--mainDark);
+  border-radius: 0 !important;
+  border:0.1rem solid var(--mainDark) !important;
+
+}
+
+.btn-black:hover{
+  background: var(--mainDark);
+  color:var(--mainWhite) !important;
+}
+.cart-icon{
+  cursor:pointer;
+  font-size:1.2rem;
+  color:var(--mainYellow)
+}
